@@ -1,0 +1,31 @@
+.group_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.group_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin: 0 5%;
+  padding: 0 10px;
+}
+
+.group_detail {
+  text-align: end;
+  font-size: 10px;
+  margin: 0 5%;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  margin: 0 5% 15%;
+  gap: 15px;
+}

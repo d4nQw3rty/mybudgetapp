@@ -1,0 +1,20 @@
+.nav_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 380px;
+  height: 80px;
+  gap: 15px;
+  background: #3778c2;
+}
+
+.nav_menu a {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.nav_menu a:hover {
+  color: #f5f5f5b0;
+}

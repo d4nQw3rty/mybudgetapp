@@ -1,0 +1,12 @@
+<h1>Details</h1>
+<div class="group_container">
+  <%= render @group %>
+
+  <div class="action">
+    <div>
+      <%= link_to "Edit this group", edit_group_path(@group) %> |
+      <%= link_to "Back to groups", groups_path %>
+    </div>
+      <%= button_to "Destroy this group", @group, method: :delete %>
+  </div>
+</div>
