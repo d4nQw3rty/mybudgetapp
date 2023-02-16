@@ -1,26 +1,26 @@
- @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@700&family=Lato:ital,wght@0,100;0,400;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@700&family=Lato:ital,wght@0,100;0,400;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
- body {
-   display: flex;
-   flex-direction: column;
-   margin: 0;
-   padding: 0;
-   width: 380px;   
-   background: #f5f5f5;
-   font-family: 'Figtree', sans-serif;
-   border: solid 1px #ccc;
-   align-items: center;
- }
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 380px;
+  background: #f5f5f5;
+  font-family: 'Figtree', sans-serif;
+  border: solid 1px #ccc;
+  align-items: center;
+}
 
- footer {
+footer {
   display: flex;
   justify-content: center;
   background-color: #5fb523;
   width: 100%;
   color: white;
- }
+}
 
- .div_footer {
+.div_footer {
   display: flex;
   flex-direction: column;
   padding: 15px;
@@ -28,4 +28,4 @@
   text-align: center;
   border: solid;
   margin: 15px;
- }
+}
