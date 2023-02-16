@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+  root_to: 'groups#index'
   resources :payments
   resources :groups
   resources :users
