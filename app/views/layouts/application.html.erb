@@ -7,6 +7,9 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "home_body", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "home_nav", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "groups.css", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
@@ -34,7 +37,11 @@
   </div>  
   <% end %>
   </nav>
-
-    <%= yield %>
+    <%= yield %>    
   </body>
+  <footer>
+  <div class="div_footer">
+  <p class="mgr_0">© 2023 Mybudgetapp</p>
+  </div>
+  </footer>  
 </html>
