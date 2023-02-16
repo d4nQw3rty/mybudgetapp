@@ -16,8 +16,10 @@ footer {
   display: flex;
   justify-content: center;
   background-color: #5fb523;
-  width: 100%;
+  width: 380px;
   color: white;
+  position: fixed;
+  bottom: 0;
 }
 
 .div_footer {
