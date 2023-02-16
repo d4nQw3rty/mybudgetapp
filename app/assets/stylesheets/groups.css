@@ -20,3 +20,12 @@
   font-size: 10px;
   margin: 0 5%;
 }
+
+.action {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  margin: 0 5% 15%;
+  gap: 15px;
+}
