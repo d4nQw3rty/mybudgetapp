@@ -1,8 +1,28 @@
 <p style="color: green"><%= notice %></p>
-
+<nav class="login-nav">
+<div class="login-form">
+ <%= image_tag("https://img.icons8.com/ios-glyphs/30/FFFFFF/menu--v1.png") %>
+  <h2>CATEGORIES</h2>
+  <%= button_to "Sign Out", destroy_user_session_path, class: "signout", method: :delete %>
+</div>   
+</nav>
 <div id="groups-section">
-  <%= render partial: '/groups/group' %>
-  <div class="add-b-container">
+<ul class="group-container">
+<% @groups.each do |group| %>
+  <li>
+    <div class="group-image">
+      <img src="<%= group.icon %>">
+    </div>
+      <h3><%= link_to group.name, group_path(group.id) %></h3>
+      <% @total2.each do |key, value| %> 
+        <% if key == group.id %> 
+          <p><%= value %></p>
+        <% end %> 
+      <% end %>
+  </li>
+  <% end %> 
+</ul>
+  <div class="add-t-container">
   <%= link_to "ADD A NEW CATEGORY", new_group_path, class: "add-category" %>
   </div>
 </div>
