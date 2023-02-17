@@ -8,13 +8,14 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "home", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "login", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
   <%if user_signed_in? %>
     <nav class="nav">
-         <% if current_page?(root_path) || current_page?(controller: "groups", action: "new") %>
+         <% if current_page?(groups_path) || current_page?(controller: "groups", action: "new") %>
         <div>
           <%= image_tag("https://img.icons8.com/ios-glyphs/30/FFFFFF/menu--v1.png") %>
           <h2>CATEGORIES</h2>
