@@ -9,42 +9,12 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "home", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "login", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "groups", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "payments", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-  <%if user_signed_in? %>
-    <nav class="nav">
-         <% if current_page?(groups_path) || current_page?(controller: "groups", action: "new") %>
-        <div>
-          <%= image_tag("https://img.icons8.com/ios-glyphs/30/FFFFFF/menu--v1.png") %>
-          <h2>CATEGORIES</h2>
-          <%= button_to "Sign Out", destroy_user_session_path, class: "signout", method: :delete %>
-        </div>
-  
-        <% elsif current_page?(controller: "payments", action: "new")%>
-  
-        <div>
-          <%= link_to '<', :back %>
-          <h2>TRANSACTIONS</h2>
-          <%= button_to "Sign Out", destroy_user_session_path, class: "signout", method: :delete %>
-        </div>
-  
-        <% else %>
-        <div>
-          <%= link_to '<', root_path %>
-          <h2>CATEGORIES</h2>
-          <%= button_to "Sign Out", destroy_user_session_path, class: "signout", method: :delete %>
-        </div>
-        <% end %>
-    </nav>
-  <% end %>
-  <% if notice %>
-    <p class="alert alert-success"><%= notice %></p>
-  <% end %>
-  <% if alert %>
-    <p class="alert alert-danger"><%= alert %></p>
-  <% end %>
+  <body> 
     <%= yield %>
   </body>
 </html>

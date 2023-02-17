@@ -11,7 +11,21 @@
     </div>
   <% end %>
 
-  <div>
-    <%= form.submit %>
+ 
+  <div class="field">
+    <%= form.text_field :name, placeholder: "Name" %>
+  </div>
+
+  <div class="field">
+  <%= form.text_field :amount, placeholder: "0.0" %>
+  </div>
+  
+  <div class="selector">
+  <%= form.label :group_id %>
+    <%= form.collection_select :group_id, Group.all, :id, :name %>
+</div>
+
+  <div class="add-t-container">
+    <%= form.submit 'SAVE', class: "add-transaction"%>
   </div>
 <% end %>

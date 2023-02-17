@@ -1,10 +1,32 @@
+<nav class="login-nav">
+  <div class="login-form">
+    <%= link_to '<', groups_path %>
+    <h2>TRANSACTIONS</h2>
+    <%= button_to "Sign Out", destroy_user_session_path, class: "signout", method: :delete %>
+  </div>
+</nav>
 <p style="color: green"><%= notice %></p>
 
-<%= render @group %>
+<div class="new-transaction">
 
-<div>
-  <%= link_to "Edit this group", edit_group_path(@group) %> |
-  <%= link_to "Back to groups", groups_path %>
+  <%= render @group %>
+</div>
 
-  <%= button_to "Destroy this group", @group, method: :delete %>
+<ul class="transaction-container">
+
+<% @payments.each do |payment| %>
+
+  <li class="transaction-details">  
+
+    <h3><%= payment.name %></h3>
+    <p><%= payment.amount %></p>
+   
+  </li>
+
+<% end %>
+
+</ul>
+
+<div class="add-t-container">
+  <%= link_to "Add Payment", new_payment_path,  class: "add-transaction txt-center" %> 
 </div>
