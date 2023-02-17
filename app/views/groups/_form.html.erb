@@ -11,7 +11,16 @@
     </div>
   <% end %>
 
-  <div>
-    <%= form.submit %>
+  <div class="field">
+    <%= form.text_field :name, placeholder: "Name" %>
   </div>
+
+  <div class="field">
+  <%= form.text_field :icon, placeholder: "Icon" %>
+  </div> 
+
+  <div class="add-t-container">
+    <%= form.submit 'SAVE', class: "add-transaction"%>
+  </div>
+
 <% end %>
