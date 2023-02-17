@@ -1,7 +1,10 @@
+<nav class="login-nav">
+<div class="login-form">
+<%= link_to '<', :back %>
+<h2>CATEGORIES</h2>
+<%= button_to "Sign Out", destroy_user_session_path, class: "signout", method: :delete %>
+</div>
+</nav>
+<div class="new-transaction">
 <%= render "form", group: @group %>
-
-<br>
-
-<div>
-  <%= link_to "Back to groups", groups_path %>
 </div>
