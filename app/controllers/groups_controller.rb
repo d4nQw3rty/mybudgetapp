@@ -3,7 +3,7 @@ class GroupsController < ApplicationController
 
   # GET /groups or /groups.json
   def index
-    @groups = Group.where(user_id: current_user.id) 
+    @groups = Group.where(user_id: current_user.id)
     @total2 = Payment.where(group_id: @groups.ids).group(:group_id).sum(:amount)
   end
 

@@ -58,7 +58,7 @@ a {
 .add-b-container {
   background-color: #5fb523;
   width: 100%;
- padding: 15px;
+  padding: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
