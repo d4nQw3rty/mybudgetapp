@@ -1,13 +1,18 @@
-<ul class="group-container">
-<% @groups.each do |group| %>
-  <% if can? :manage, group %>
-  <li>
+<div id="<%= dom_id group %>" class="group-details">
+
+  <div class="group-header">
     <div class="group-image">
-      <%= image_tag group.icon, alt: 'my-icon' %>
+      <img src="<%= group.icon %>">
     </div>
-      <h3><%= link_to group.name, group_relations_path(group_id: group.id) %></h3>
-      <p>Transactions: <%= group.charges.count || 0 %></p>
-  </li>
-  <% end %>
-<% end %>
-</ul>
+    <p class="">   
+    <%= group.name %>
+    </p>
+  </div>
+
+  <div class="group-total">
+    
+      <%= render "total" %>
+    
+  </div>
+
+</div>
