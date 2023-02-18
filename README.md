@@ -162,11 +162,7 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 👤 **Danys Linares**
-
-- GitHub: [@github](https://github.com/d4nQw3rty)
-- Twitter: [@twitter](https://twitter.com/Danys_Linares)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/danys-linares)
+👤 Danys Linares
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,7 +178,7 @@ You can deploy this project using:
 ## 🤝 Contributing <a name="contributing"></a>
 
 
-Feel free to check the [issues page](https://github.com/d4nQw3rty/mybudgetapp/issues).
+Feel free to check the [issues page](https://github.com/cvalencia1991/Budget-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
