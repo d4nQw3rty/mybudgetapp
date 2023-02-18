@@ -170,7 +170,7 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [Implement project with Ruby on Rails] **[Implemennt the project using a React Front end framework]**
+- [Implement project with Ruby on Rails] 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
