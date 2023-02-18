@@ -103,7 +103,7 @@ a {
   color: #434b54;
 }
 
-.group-items{
+.group-items {
   display: flex;
   align-items: center;
   justify-content: space-between;
