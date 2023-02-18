@@ -1,0 +1,156 @@
+#relations {
+  height: 90.4%;
+  background-color: rgb(246, 246, 246);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.group-transactions-header {
+  width: 100%;
+}
+
+.group-transactions-header h3 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 18px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.new-transaction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(246, 246, 246);
+}
+
+.new-transaction h2 {
+  margin-top: 18px;
+  background-color: #fff;
+  color: #434b54;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #c5c5c5;
+}
+
+.new-transaction form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+}
+
+.new-transaction form .field {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.new-transaction form .field input {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-color: #c5c5c5;
+}
+
+.categorie-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.categorie-input-container .form-select {
+  width: 90%;
+  padding: 10px;
+  border: none;
+}
+
+.add-t-container {
+  margin-top: 20%;
+  width: 90%;
+  padding: 15px;
+  background-color: #5fb523;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+}
+
+.add-transaction {
+  background-color: #5fb523;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px;
+  width: 90%;
+  cursor: pointer;
+}
+
+.button-back {
+  margin-top: 15px;
+}
+
+.back-to {
+  color: #999;
+}
+
+.signout {
+  background-color: #3778c2;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  transition: all ease 0.5s;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.signout:hover {
+  background-color: #386aab;
+}
+
+.selector {
+  display: flex;
+  align-items: inherit;
+  width: 95%;
+  padding: 20px 20px;
+  background: #fff;
+}
+
+.selector select {
+  width: 100%;
+  margin-left: 5px;
+  border: solid 1px #c5c5c5;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.transaction-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 25px;
+  width: 95%;
+}
+
+.transaction-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 5px;
+}
