@@ -178,7 +178,7 @@ You can deploy this project using:
 ## 🤝 Contributing <a name="contributing"></a>
 
 
-Feel free to check the [issues page](https://github.com/cvalencia1991/Budget-app/issues).
+Feel free to check the [issues page](https://github.com/d4nQw3rty/mybudgetapp/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
