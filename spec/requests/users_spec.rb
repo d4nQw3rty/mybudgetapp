@@ -23,6 +23,6 @@ RSpec.describe 'Users', type: :request do
     it 'does not render a different template' do
       get groups_path
       expect(response).to_not render_template('new')
-    end 
+    end
   end
 end
