@@ -158,11 +158,11 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Cesar Alberto Valencia Aguilar**
+👤 **Danys Linares**
 
-- GitHub: [@cvalencia1991](https://github.com/cvalencia1991)
-- Twitter: [@cvalenciaguilar](https://twitter.com/cvalenciaguilar)
-- LinkedIn: [@cvalencia1991](https://www.linkedin.com/in/cvalenciaguilar/)
+- GitHub: [@github](https://github.com/d4nQw3rty)
+- Twitter: [@twitter](https://twitter.com/Danys_Linares)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/danys-linares)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
