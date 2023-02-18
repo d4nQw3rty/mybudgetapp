@@ -10,15 +10,20 @@
 <ul class="group-container">
 <% @groups.each do |group| %>
   <li>
+  <div class="group-items">
     <div class="group-image">
       <img src="<%= group.icon %>">
     </div>
       <h3><%= link_to group.name, group_path(group.id) %></h3>
+  </div>
+      <div contentEditable=true placeholder="0.0">
       <% @total2.each do |key, value| %> 
         <% if key == group.id %> 
           <p><%= value %></p>
         <% end %> 
+        
       <% end %>
+      <div>
   </li>
   <% end %> 
 </ul>

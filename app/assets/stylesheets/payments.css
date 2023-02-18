@@ -6,13 +6,6 @@
   justify-content: space-between;
 }
 
-.charge-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
 .group-transactions-header {
   width: 100%;
 }
@@ -149,6 +142,7 @@
   flex-direction: column;
   gap: 10px;
   padding: 0 25px;
+  width: 95%;
 }
 
 .transaction-container li {

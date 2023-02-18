@@ -102,3 +102,10 @@ a {
   padding: 20px;
   color: #434b54;
 }
+
+.group-items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
