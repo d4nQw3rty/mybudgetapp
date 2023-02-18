@@ -149,11 +149,7 @@ You can deploy this project using:
 
 
 ```sh
-  heroku create
-  git push heroku master
-  heroku run rails db:migrate
-  heroku open
-```
+  Render
 ```
 
 
@@ -162,7 +158,11 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 Danys Linares
+👤 **Cesar Alberto Valencia Aguilar**
+
+- GitHub: [@cvalencia1991](https://github.com/cvalencia1991)
+- Twitter: [@cvalenciaguilar](https://twitter.com/cvalenciaguilar)
+- LinkedIn: [@cvalencia1991](https://www.linkedin.com/in/cvalenciaguilar/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
