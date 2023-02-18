@@ -1,7 +1,8 @@
 require 'rails_helper'
 RSpec.describe 'Group', type: :model do
   subject do
-    @user= User.create(id: 1, name: 'User Test', email: 'usertest@tes.ts', password: '123456', confirmed_at: Time.now.utc)
+    @user = User.create(id: 1, name: 'User Test', email: 'usertest@tes.ts', password: '123456',
+                        confirmed_at: Time.now.utc)
     Group.create(name: 'Group Test', icon: 'https://www.google.com', user_id: @user.id)
   end
   it 'is valid with valid attributes' do
